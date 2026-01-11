@@ -1,0 +1,26 @@
+{
+  "name": "jira-integration",
+  "version": "1.0.0",
+  "description": "Create and manage Jira issues, search projects, update tickets, and integrate with Atlassian Jira",
+  "author": "Dev Orchestrator Team",
+  "author_url": "https://github.com/chaos-consultant",
+  "entry": "server.py",
+  "runtime": "python",
+  "tools": [
+    "jira_search_issues",
+    "jira_get_issue",
+    "jira_create_issue",
+    "jira_update_issue",
+    "jira_add_comment",
+    "jira_transition_issue",
+    "jira_get_transitions",
+    "jira_list_projects"
+  ],
+  "env": [
+    "JIRA_URL",
+    "JIRA_EMAIL",
+    "JIRA_API_TOKEN"
+  ],
+  "category": "integration",
+  "tags": ["jira", "issue-tracking", "atlassian", "project-management"]
+}
